@@ -1,8 +1,7 @@
-/* General Styling */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-image: url('images/backgroud.jpg'); /* Path to your downloaded image */
+  background-image: url('images/backgroud.jpg'); 
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -10,7 +9,6 @@ body {
   color: white;
 }
 
-/* Container */
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
@@ -18,7 +16,6 @@ body {
   min-height: 100vh;
 }
 
-/* Header */
 .header {
   grid-column: 1 / 4;
   text-align: center;
@@ -53,7 +50,6 @@ body {
   color: white;
 }
 
-/* Main Content */
 .main-content {
   grid-column: 2;
   grid-row: 2;
@@ -97,7 +93,6 @@ body {
   background-color: rgba(0, 63, 92, 1);
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
   .container {
       grid-template-columns: 1fr;
@@ -107,7 +102,7 @@ body {
   .left-sidebar {
       grid-column: 1;
       grid-row: 3;
-      display: none; /* Hide sidebar on smaller screens */
+      display: none; 
   }
 
   .main-content {
